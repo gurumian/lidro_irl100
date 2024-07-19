@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<robot name="royi" xmlns:xacro="http://ros.org/wiki/xacro">
+<robot name="none" xmlns:xacro="http://ros.org/wiki/xacro">
   <xacro:arg name="use_gps" default="false"/>
 
   <xacro:property name="base_width" value="0.515"/>
