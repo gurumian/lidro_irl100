@@ -21,7 +21,6 @@ find_package(geometry_msgs REQUIRED)
 find_package(message_filters REQUIRED)
 find_package(PCL REQUIRED COMPONENTS common)
 find_package(sensor_msgs REQUIRED)
-find_package(Boost REQUIRED COMPONENTS system)
 find_package(pcl_conversions REQUIRED)
 find_package(PCL REQUIRED)
 find_package(tf2_eigen REQUIRED)
@@ -31,10 +30,6 @@ find_package(tf2_sensor_msgs REQUIRED)
 include_directories(${PCL_INCLUDE_DIRS} include)
 link_directories(${PCL_LIBRARY_DIRS})
 add_definitions(${PCL_DEFINITIONS})
-
-
-# compile the filter and input library
-# add_subdirectory(src/lib)
 
 # build the filter node
 add_library(lidro_filter SHARED src/filter.cpp)
@@ -55,7 +50,6 @@ ament_target_dependencies(lidro_filter
 )
 target_link_libraries(
   lidro_filter
-  ${Boost_SYSTEM_LIBRARY}
   ${PCL_LIBRARIES}
 )
 

@@ -9,11 +9,7 @@
   <maintainer email="buttonfly@gmail.com">Bryce Ghim</maintainer>
 
   <license>BSD</license>
-  <url type="website">http://www.ros.org/wiki/lidro_driver</url>
-  <url type="repository">https://github.com/ros-drivers/lidro</url>
-  <url type="bugtracker">https://github.com/ros-drivers/lidro/issues</url>
-
-  <author>Sungmin Kim</author>
+  <author>Bryce Ghim</author>
 
   <buildtool_depend>ament_cmake_ros</buildtool_depend>
   <exec_depend>joint_state_publisher</exec_depend>

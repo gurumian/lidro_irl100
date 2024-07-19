@@ -2,14 +2,14 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>lidro_irl100</name>
-  <version>2.4.0</version>
+  <version>0.0.1</version>
   <description>
     ROS device driver for lidro 3D LIDARs.
   </description>
-  <maintainer email="smkim@idro.kr">Sungmin Kim</maintainer>
+  <maintainer email="buttonfly@gmail.com">Bryce Ghim</maintainer>
 
   <license>BSD</license>
-  <author>Sungmin Kim</author>
+  <author>Bryce Ghim</author>
 
   <buildtool_depend>ament_cmake_ros</buildtool_depend>
   <exec_depend>joint_state_publisher</exec_depend>
