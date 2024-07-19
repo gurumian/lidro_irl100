@@ -1,0 +1,15 @@
+lidro_irl100_node:
+    ros__parameters:
+        device: /dev/ttyUSB0
+        baudrate: 1500000
+        time_offset: 0.0
+        enabled: true
+        repeat_delay: 0.0
+        frame_id: lidar_link
+        timestamp_first_packet: false
+        range_min: 0.1 # (m)
+        range_max: 40.0 # (m)
+        # output_laserscan: true #default false
+        # output_pcl2: false #default true
+        # flip_x_axis: false #default true
+        detect_ground: true #default true

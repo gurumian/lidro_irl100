@@ -1,0 +1,8 @@
+lidro_filter_node:
+    ros__parameters:
+        # point2_in: "out"
+        frame_id: lidar_link
+        timestamp_first_packet: false
+        publish_laserscan: true
+        range_min: 0.0
+        range_max: 40.0
